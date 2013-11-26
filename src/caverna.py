@@ -44,32 +44,32 @@ class Camara:
     """
     def __init__(self,html,nome,lugar):
         """inicia a camara."""
-         self.html,self.nome,self.lugar=html,nome,lugar
-         self.passagem=self.div=None
-         self.tunel{}
+        self.html,self.nome,self.lugar=html,nome,lugar
+        self.passagem=self.div=None
+        self.tunel{}
 
     def cria_camara(self):
-         """cria a camara e suas partes."""
-         self.div=self.html.DIV()
-         self.passagem=self.html.DIV()
-         self.div<=self.passagem
-         self.div.style.backgroundSize="cover"
-         self.div.style.backgroundImage="url(%s)"%CAVEX
-         self.div.style.width=1000
-         self.div.style.height=800
-         self.div.text="Caverna do Luís"
-         self.div<=self.passagem
-         self.lugar.main<=self.div
-         return self
+        """cria a camara e suas partes."""
+        self.div=self.html.DIV()
+        self.passagem=self.html.DIV()
+        self.div<=self.passagem
+        self.div.style.backgroundSize="cover"
+        self.div.style.backgroundImage="url(%s)"%CAVEX
+        self.div.style.width=1000
+        self.div.style.height=800
+        self.div.text="Caverna do Luís"
+        self.div<=self.passagem
+        self.lugar.main<=self.div
+        return self
 
 
 class Tunel:
     """Um tunel da caverna que liga camaras. :ref: 'tunel'"""
     def __init__(self,html,nome,lugar):
         """Inicia o tunel."""
-         self.html,self.nome,self.lugar=html,nome,lugar
-         self.passagem=self.div=None
-         self.tunel{}
+        self.html,self.nome,self.lugar=html,nome,lugar
+        self.passagem=self.div=None
+        self.tunel{}
 
 
     def cria_tunel(self):
@@ -84,7 +84,7 @@ class Tunel:
         self.div.text="Caverna do Luís"
         self.div<=self.passagem
         self.lugar.main<=self.div
-         return self
+        return self
 
 
 
